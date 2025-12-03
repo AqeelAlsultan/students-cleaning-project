@@ -1,65 +1,47 @@
-Students Cleaning Project
+# Students Cleaning Project
 
-This is a small learning project created to practice Python basics and simple data cleaning.
+This is a small learning project created to practice Python basics and simple data cleaning.  
+The project reads a CSV file with student names and grades, cleans the data, and creates a clean CSV file and a text report.
 
-This project reads a CSV file with student names and grades, cleans the data, and creates a clean CSV file and a text report.
 It is a simple example of data cleaning and basic data analysis using Python.
-
 
 ---
 
-Project Overview
+## Project Overview
 
 The program does the following:
 
-Reads raw student data from students_raw.csv
-
-Cleans the data (removes invalid rows)
-
-Converts grades to numbers
-
-Fixes extra spaces
-
-Removes invalid names
-
-Keeps the highest grade if a name appears more than once
-
-Calculates basic statistics
-
-Saves a clean CSV file
-
-Writes a text report with the results
-
-
+- Reads raw student data from `students_raw.csv`
+- Cleans the data (removes invalid rows)
+- Converts grades to numbers
+- Fixes extra spaces
+- Removes invalid names
+- Keeps the highest grade if a name appears more than once
+- Calculates basic statistics
+- Saves a clean CSV file
+- Writes a text report with the results
 
 ---
 
-Files
+## Files
 
-File	Description
-
-students_raw.csv	Raw input data
-main.py	Main Python script
-students_clean.csv	Clean output data (generated)
-report.txt	Final analysis report (generated)
-README.md	Project description
-
-
+| File | Description |
+|------|-------------|
+| `students_raw.csv` | Raw input data |
+| `main.py` | Main Python script |
+| `students_clean.csv` | Clean output data (generated) |
+| `report.txt` | Final analysis report (generated) |
+| `README.md` | Project description |
 
 ---
 
-How to Run
+## How to Run
 
-1. Install Python 3
-
-
-2. Place all files in the same folder
-
-
+1. Install Python 3  
+2. Place all project files in the same folder  
 3. Run this command:
 
-
-
+```bash
 python main.py
 
 After running the script:
@@ -110,6 +92,22 @@ Number of failed students
 
 ---
 
+Example Output
+
+Students Report
+.................
+Total clean students : 8
+Average grade: 72.25
+
+Top student: Ali Hassan with 97.0
+Lowest student: Reem with 40.0
+
+Passed: 6 students
+Failed: 2 students
+
+
+---
+
 Learning Purpose
 
 This project was created to practice:
@@ -120,9 +118,9 @@ Writing files
 
 Using dictionaries
 
-Loops and nested loops
+Loops
 
-Error handling (try / except)
+Error handling (try/except)
 
 Data cleaning
 
