@@ -1,5 +1,7 @@
 Students Cleaning Project
 
+This is a small learning project created to practice Python basics and simple data cleaning.
+
 This project reads a CSV file with student names and grades, cleans the data, and creates a clean CSV file and a text report.
 It is a simple example of data cleaning and basic data analysis using Python.
 
